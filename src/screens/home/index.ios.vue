@@ -97,13 +97,13 @@ export default {
   align-items: center;
   justify-content: center;
   flex: 0;
-  padding: 40px;
+  padding: 20px;
 }
 .heading {
   font-size: 30px;
   font-weight: bold;
   color: darkolivegreen;
-  margin: 20px;
+  margin: 10px;
 }
 .text {
   text-align: center;

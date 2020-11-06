@@ -23,8 +23,7 @@
             block
           >
             <nb-text :style="{ fontSize: 10 }">
-              {{ track.name_en }} - {{ track.name_jp }} -
-              {{ track.abbreviation }}
+              {{ track.name_en }} - {{ track.name_jp }} - {{ track.abbreviation }}
             </nb-text>
           </nb-button>
         </view>
