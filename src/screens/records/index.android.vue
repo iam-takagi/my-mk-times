@@ -1,14 +1,27 @@
 <template>
   <view class="container">
     <nb-content>
-      <text class="heading">{{ navigation.getParam("game") }}: 記録 / Your Records</text>
+      <text class="heading"
+        >{{ navigation.getParam("game") }}: - Records</text
+      >
 
-      <view v-for="(cup, i) in info.cups" :key="i" :style="{ margin: 10 }">
-        <text>{{ cup.id }}</text>
-        <view v-for="(track, i) in cup.tracks" :key="i" :style="{ margin: 10 }">
-          <nb-button :onPress="() => goToTrack(track.abbreviation)">
-            <nb-text> {{ track.name_en }} - {{ track.name_jp }} - {{ track.abbreviation }} </nb-text>
+      <view v-for="(cup, i) in info.cups" :key="i" :style="{ marginTop: 20 }">
+
+        <view v-for="(track, i) in cup.tracks" :key="i" :style="{ marginTop: 10 }">
+          <nb-button
+            :onPress="
+              () =>
+                goToTrack(
+                  navigation.getParam('game'),
+                  track
+                )
+            "
+          block >
+            <nb-text :style="{ fontSize: 10 }">
+              {{ track.name_en }} - {{ track.name_jp }} - {{ track.abbreviation }}
+            </nb-text>
           </nb-button>
+
         </view>
       </view>
     </nb-content>
@@ -19,7 +32,7 @@
 import info from "../../assets/games/mk8dx/info.json";
 
 export default {
-  props: {
+  props: { 
     navigation: {
       type: Object,
     },
@@ -30,10 +43,13 @@ export default {
     };
   },
   methods: {
-    goToTrack(track) {
-      this.navigation.navigate("Track", {track: track});
-    },
-  },
+    goToTrack(game, track) {
+      this.navigation.navigate("Record", {
+        game: game,
+        track: track
+      });
+    }
+  }
 };
 </script>
 
@@ -44,9 +60,9 @@ export default {
   flex: 1;
 }
 .heading {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   color: darkolivegreen;
-  margin: 20px;
+  margin-top: 20px;
 }
 </style>

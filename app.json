@@ -24,7 +24,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "my.mk.times"
     },
     "packagerOpts": {
       "config": "metro.config.js",
@@ -35,6 +36,9 @@
         "tsx",
         "vue"
       ]
+    },
+    "android": {
+      "package": "a.a.a"
     }
   }
 }

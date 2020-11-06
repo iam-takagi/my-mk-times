@@ -12,30 +12,25 @@ import {
 
 import HomeScreen from "./screens/home";
 import RecordsScreen from "./screens/records";
-import SettingsScreen from "./screens/settings";
-import TrackScreen from "./screens/track";
-
-const IOSTabs = createBottomTabNavigator(
-  {
-    Records: RecordsScreen,
-    Settings: SettingsScreen
-  }
-);
-
-const AndroidTabs = createMaterialTopTabNavigator(
-  {
-    Records: RecordsScreen,
-    Settings: SettingsScreen
-  }
-);
+import AboutScreen from "./screens/about";
+import RecordScreen from "./screens/record";
 
 const StackNavigator = createStackNavigator(
   {
     Home: HomeScreen,
-    Track: TrackScreen,
-    AndroidTabs,
-    IOSTabs
-  }
+    Record: {
+      screen: RecordScreen,
+      navigationOptions: ({navigation}) => ({
+        title : navigation.getParam("game_display_name")
+      })
+    },
+    Records: {
+      screen: RecordsScreen,
+      navigationOptions: ({navigation}) => ({
+        title: navigation.getParam("game_display_name")
+      })
+    }
+  },
 );
 
 const AppNavigator = createAppContainer(StackNavigator);

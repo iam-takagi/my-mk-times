@@ -3,30 +3,29 @@
     <text class="heading">My MK Times</text>
     <text class="text">記録を保存しましょう - Saving records</text>
     <text class="text">ゲームタイトルを選択 - Please select a game title</text>
-    
-      <nb-button block info :style="{ margin: 10 }" :onPress="() => goToAndroidTabNavigator('mk8u')">
+
+      <nb-button block info :style="{ margin: 10 }" :onPress="() => goToIOSTabNavigator('mk8u')">
         <nb-text>MK8U - Records</nb-text>
       </nb-button>
 
-      <nb-button block primary :style="{ margin: 10 }" :onPress="() => goToAndroidTabNavigator('mk8dx')">
-        <nb-text>MK8DX - Records</nb-text>
+      <nb-button block primary :style="{ margin: 10 }" :onPress="() => goToIOSTabNavigator('mk8dx-150cc')">
+        <nb-text>MK8DX 150cc - Records</nb-text>
+      </nb-button>
+
+       <nb-button block primary :style="{ margin: 10 }" :onPress="() => goToIOSTabNavigator('mk8dx-200cc')">
+        <nb-text>MK8DX 200cc - Records</nb-text>
       </nb-button>
   </view>
 </template>
 
 <script>
-import Store from '../../../store';
 export default {
   props: {
     navigation: { type: Object }
   },
-  methods: {
-   setGame (game) {
-      Store.dispatch('setGame', game)
-    },
-    goToAndroidTabNavigator(game) {
-      this.setGame(game)
-      this.navigation.navigate("AndroidTabs")
+  methods: { 
+    goToIOSTabNavigator : function(game) {
+      this.navigation.navigate("IOSTabs", {game: game})
     }
   }
 }
