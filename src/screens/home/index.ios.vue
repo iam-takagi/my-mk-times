@@ -1,82 +1,124 @@
 <template>
-  <view class="container">
+  <nb-container>
     <text class="heading">My MK Times</text>
     <text class="text">記録を保存しましょう - Saving records</text>
     <text class="text">ゲームタイトルを選択 - Please select a game title</text>
 
-    <nb-button
-      block
-      danger
-      :style="{ margin: 10 }"
-      :onPress="() => goToIOSTabNavigator('mkw', 'MKW')"
-    >
-      <nb-text>MKW</nb-text>
-    </nb-button>
+    <nb-content>
 
-    <nb-button
-      block
-      danger
-      :style="{ margin: 10 }"
-      :onPress="() => goToIOSTabNavigator('mkw-nita', 'MKW (NITA)')"
-    >
-      <nb-text>MKW (NITA)</nb-text>
-    </nb-button>
+      <nb-button
+        block
+        dark
+        :style="{ margin: 10 }"
+        :onPress="() => goToIOSTabNavigator('mkds', 'MKDS')"
+      >
+        <nb-text>MKDS</nb-text>
+      </nb-button>
 
-    <nb-button
-      block
-      warning
-      :style="{ margin: 10 }"
-      :onPress="() => goToIOSTabNavigator('mk8u', 'MK8U')"
-    >
-      <nb-text>MK8U</nb-text>
-    </nb-button>
+      <nb-button
+        block
+        dark
+        :style="{ margin: 10 }"
+        :onPress="() => goToIOSTabNavigator('mkds-nita', 'MKDS (NITA)')"
+      >
+        <nb-text>MKDS (NITA)</nb-text>
+      </nb-button>
 
-    <nb-button
-      block
-      warning
-      :style="{ margin: 10 }"
-      :onPress="() => goToIOSTabNavigator('mk8u-nita', 'MK8U (NITA)')"
-    >
-      <nb-text>MK8U (NITA)</nb-text>
-    </nb-button>
+      <nb-button
+        block
+        danger
+        :style="{ margin: 10 }"
+        :onPress="() => goToIOSTabNavigator('mk7', 'MK7')"
+      >
+        <nb-text>MK7</nb-text>
+      </nb-button>
 
-    <nb-button
-      block
-      primary
-      :style="{ margin: 10 }"
-      :onPress="() => goToIOSTabNavigator('mk8dx-150cc', 'MK8DX 150cc')"
-    >
-      <nb-text>MK8DX 150cc</nb-text>
-    </nb-button>
+      <nb-button
+        block
+        danger
+        :style="{ margin: 10 }"
+        :onPress="() => goToIOSTabNavigator('mk7-nita', 'MK7 (NITA)')"
+      >
+        <nb-text>MK7 (NITA)</nb-text>
+      </nb-button>
+    
+      <nb-button
+        block
+        success
+        :style="{ margin: 10 }"
+        :onPress="() => goToIOSTabNavigator('mkw', 'MKW')"
+      >
+        <nb-text>MKW</nb-text>
+      </nb-button>
 
-    <nb-button
-      block
-      primary
-      :style="{ margin: 10 }"
-      :onPress="() => goToIOSTabNavigator('mk8dx-150cc-nita', 'MK8DX 150cc (NITA)')"
-    >
-      <nb-text>MK8DX 150cc (NITA)</nb-text>
-    </nb-button>
+      <nb-button
+        block
+        success
+        :style="{ margin: 10 }"
+        :onPress="() => goToIOSTabNavigator('mkw-nita', 'MKW (NITA)')"
+      >
+        <nb-text>MKW (NITA)</nb-text>
+      </nb-button>
 
-    <nb-button
-      block
-      primary
-      :style="{ margin: 10 }"
-      :onPress="() => goToIOSTabNavigator('mk8dx-200cc', 'MK8DX 200cc')"
-    >
-      <nb-text>MK8DX 200cc</nb-text>
-    </nb-button>
+      <nb-button
+        block
+        warning
+        :style="{ margin: 10 }"
+        :onPress="() => goToIOSTabNavigator('mk8u', 'MK8U')"
+      >
+        <nb-text>MK8U</nb-text>
+      </nb-button>
 
-    <nb-button
-      block
-      primary
-      :style="{ margin: 10 }"
-      :onPress="() => goToIOSTabNavigator('mk8dx-200cc-nita', 'MK8DX 200cc (NITA)')"
-    >
-      <nb-text>MK8DX 200cc (NITA)</nb-text>
-    </nb-button>
+      <nb-button
+        block
+        warning
+        :style="{ margin: 10 }"
+        :onPress="() => goToIOSTabNavigator('mk8u-nita', 'MK8U (NITA)')"
+      >
+        <nb-text>MK8U (NITA)</nb-text>
+      </nb-button>
 
-  </view>
+      <nb-button
+        block
+        primary
+        :style="{ margin: 10 }"
+        :onPress="() => goToIOSTabNavigator('mk8dx-150cc', 'MK8DX 150cc')"
+      >
+        <nb-text>MK8DX 150cc</nb-text>
+      </nb-button>
+
+      <nb-button
+        block
+        primary
+        :style="{ margin: 10 }"
+        :onPress="
+          () => goToIOSTabNavigator('mk8dx-150cc-nita', 'MK8DX 150cc (NITA)')
+        "
+      >
+        <nb-text>MK8DX 150cc (NITA)</nb-text>
+      </nb-button>
+
+      <nb-button
+        block
+        primary
+        :style="{ margin: 10 }"
+        :onPress="() => goToIOSTabNavigator('mk8dx-200cc', 'MK8DX 200cc')"
+      >
+        <nb-text>MK8DX 200cc</nb-text>
+      </nb-button>
+
+      <nb-button
+        block
+        primary
+        :style="{ margin: 10 }"
+        :onPress="
+          () => goToIOSTabNavigator('mk8dx-200cc-nita', 'MK8DX 200cc (NITA)')
+        "
+      >
+        <nb-text>MK8DX 200cc (NITA)</nb-text>
+      </nb-button>
+    </nb-content>
+  </nb-container>
 </template>
 
 <script>
@@ -86,7 +128,10 @@ export default {
   },
   methods: {
     goToIOSTabNavigator: function (game, game_display_name) {
-      this.navigation.navigate("Records", { game: game, game_display_name: game_display_name });
+      this.navigation.navigate("Records", {
+        game: game,
+        game_display_name: game_display_name,
+      });
     },
   },
 };
@@ -103,6 +148,7 @@ export default {
   font-size: 30px;
   font-weight: bold;
   color: darkolivegreen;
+  text-align: center;
   margin: 10px;
 }
 .text {

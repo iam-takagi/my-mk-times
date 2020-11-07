@@ -2,7 +2,6 @@
   <view class="container">
     <nb-content>
    
-
       <text :style="{marginTop: 15}"> {{ navigation.getParam("track").name_en }} - {{ navigation.getParam("track").name_jp }} - {{ navigation.getParam("track").abbreviation }}</text>
 
       <!--text> {{ records }}</text-->

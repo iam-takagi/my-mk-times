@@ -47,8 +47,12 @@ export default {
   created() {
     if (this.navigation.getParam("game").includes("mk8")) {
       this.info = require("../../assets/games/mk8/info.json");
-    } else {
+    } else if(this.navigation.getParam("game").includes("mkw")) {
       this.info = require("../../assets/games/mkw/info.json");
+    } else if(this.navigation.getParam("game").includes("mk7")) {
+      this.info = require("../../assets/games/mk7/info.json");
+    } else if(this.navigation.getParam("game").includes("mkds")) {
+      this.info = require("../../assets/games/mkds/info.json");
     }
   },
   methods: {

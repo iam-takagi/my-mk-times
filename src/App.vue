@@ -12,7 +12,6 @@ import {
 
 import HomeScreen from "./screens/home";
 import RecordsScreen from "./screens/records";
-import AboutScreen from "./screens/about";
 import RecordScreen from "./screens/record";
 
 const StackNavigator = createStackNavigator(
@@ -29,7 +28,7 @@ const StackNavigator = createStackNavigator(
       navigationOptions: ({navigation}) => ({
         title: navigation.getParam("game_display_name")
       })
-    }
+    },
   },
 );
 
