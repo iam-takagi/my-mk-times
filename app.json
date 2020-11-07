@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "TabNavigatorExample",
-    "slug": "tab-nav-eg",
+    "name": "My Mk Times",
+    "slug": "my-mk-times",
     "privacy": "public",
     "sdkVersion": "39.0.0",
     "platforms": [
@@ -38,7 +38,8 @@
       ]
     },
     "android": {
-      "package": "a.a.a"
-    }
+      "package": "my.mk.times"
+    },
+    "description": ""
   }
 }
