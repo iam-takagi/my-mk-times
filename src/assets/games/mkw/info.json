@@ -1,6 +1,236 @@
 {
     "cups": [
         {
+            "id": 0,
+            "tracks": [
+                {
+                    "id": 0,
+                    "name_en": "Luigi Circuit",
+                    "name_jp": "ルイージサーキット",
+                    "abbreviation": "LC"
+                },
+                {
+                    "id": 1,
+                    "name_en": "Moo Moo Meadows",
+                    "name_jp": "モーモーカントリー",
+                    "abbreviation": "MMM"
+                },
+                {
+                    "id":　2,
+                    "name_en": "Mushroom Gorge",
+                    "name_jp": "キノコキャニオン",
+                    "abbreviation": "MG"
+                },
+                {
+                    "id": 3,
+                    "name_en": "Toad's Factory",
+                    "name_jp": "キノピオファクトリー",
+                    "abbreviation": "TF"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "tracks": [
+                {
+                    "id": 0,
+                    "name_en": "Mario Circuit",
+                    "name_jp": "マリオサーキット",
+                    "abbreviation": "MC"
+                },
+                {
+                    "id": 1,
+                    "name_en": "Coconut Mall",
+                    "name_jp": "ココナッツモール",
+                    "abbreviation": "CM"
+                },
+                {
+                    "id":　2,
+                    "name_en": "DK's Snowboard Cross",
+                    "name_jp": "DKスノーボードクロス",
+                    "abbreviation": "DKSC"
+                },
+                {
+                    "id": 3,
+                    "name_en": "Wario's Gold Mine",
+                    "name_jp": "ワリオこうざん",
+                    "abbreviation": "WGM"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "tracks": [
+                {
+                    "id": 0,
+                    "name_en": "Daisy Circuit",
+                    "name_jp": "デイジーサーキット",
+                    "abbreviation": "DC"
+                },
+                {
+                    "id": 1,
+                    "name_en": "Koopa Cape",
+                    "name_jp": "ノコノコみさき",
+                    "abbreviation": "KC"
+                },
+                {
+                    "id":　2,
+                    "name_en": "Maple Treeway",
+                    "name_jp": "メイプルツリーハウス",
+                    "abbreviation": "MT"
+                },
+                {
+                    "id": 3,
+                    "name_en": "Grumble Volcano",
+                    "name_jp": "グラグラかざん",
+                    "abbreviation": "GV"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "tracks": [
+                {
+                    "id": 0,
+                    "name_en": "Dry Dry Ruins",
+                    "name_jp": "カラカラいせき",
+                    "abbreviation": "DDR"
+                },
+                {
+                    "id": 1,
+                    "name_en": "Moonview Highway",
+                    "name_jp": "ムーンリッジ & ハイウェイ",
+                    "abbreviation": "MH"
+                },
+                {
+                    "id":　2,
+                    "name_en": "Bowser's Castle",
+                    "name_jp": "クッパキャッスル",
+                    "abbreviation": "BC"
+                },
+                {
+                    "id": 3,
+                    "name_en": "Rainbow Road",
+                    "name_jp": "レインボーロード",
+                    "abbreviation": "RR"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "tracks": [
+                {
+                    "id": 0,
+                    "name_en": "GCN Peach Beach",
+                    "name_jp": "GC ピーチビーチ",
+                    "abbreviation": "rPB"
+                },
+                {
+                    "id": 1,
+                    "name_en": "DS Yoshi Falls",
+                    "name_jp": "DS ヨッシーフォールズ",
+                    "abbreviation": "rYF"
+                },
+                {
+                    "id":　2,
+                    "name_en": "SNES Ghost Valley 2",
+                    "name_jp": "SFC おばけぬま2",
+                    "abbreviation": "rGV2"
+                },
+                {
+                    "id": 3,
+                    "name_en": "N64 Mario Raceway",
+                    "name_jp": "64 マリオサーキット",
+                    "abbreviation": "rMR"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "tracks": [
+                {
+                    "id": 0,
+                    "name_en": "N64 Sherbet Land",
+                    "name_jp": "64 シャーベットランド",
+                    "abbreviation": "rSL"
+                },
+                {
+                    "id": 1,
+                    "name_en": "GBA Shy Guy Beach",
+                    "name_jp": "GBA ヘイホービーチ",
+                    "abbreviation": "rSGB"
+                },
+                {
+                    "id":　2,
+                    "name_en": "DS Delfino Square",
+                    "name_jp": "DS モンテタウン",
+                    "abbreviation": "rDS"
+                },
+                {
+                    "id": 3,
+                    "name_en": "GCN Waluigi Stadium",
+                    "name_jp": "GC ワルイージスタジアム",
+                    "abbreviation": "rWS"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "tracks": [
+                {
+                    "id": 0,
+                    "name_en": "DS Desert Hills",
+                    "name_jp": "DS サンサンさばく",
+                    "abbreviation": "rDH"
+                },
+                {
+                    "id": 1,
+                    "name_en": "GBA Bowser Castle 3",
+                    "name_jp": "GBA クッパキャッスル",
+                    "abbreviation": "rBC3"
+                },
+                {
+                    "id":　2,
+                    "name_en": "N64 DK's J.Parkway",
+                    "name_jp": "64 DKジャングルパーク",
+                    "abbreviation": "rDJKP"
+                },
+                {
+                    "id": 3,
+                    "name_en": "GCN Mario Circuit",
+                    "name_jp": "GC マリオサーキット",
+                    "abbreviation": "rMC"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "tracks": [
+                {
+                    "id": 0,
+                    "name_en": "SNES Mario Circuit 3",
+                    "name_jp": "SFC マリオサーキット3",
+                    "abbreviation": "rMC3"
+                },
+                {
+                    "id": 1,
+                    "name_en": "DS Peach Gardens",
+                    "name_jp": "DS ピーチガーデン",
+                    "abbreviation": "rPG"
+                },
+                {
+                    "id":　2,
+                    "name_en": "GCN DK Mountain",
+                    "name_jp": "GC DKマウンテン",
+                    "abbreviation": "rDKM"
+                },
+                {
+                    "id": 3,
+                    "name_en": "N64 Bowser's Castle",
+                    "name_jp": "64 クッパキャッスル",
+                    "abbreviation": "rBC"
+                }
+            ]
         }
     ]
 }

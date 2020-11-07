@@ -1,33 +1,28 @@
 {
     "cups": [
         {
-            "id": "0",
-            "thumbnail": "../../assets/games/mk8dx/cups/0/thumbnail.png",
+            "id": 0,
             "tracks": [
                 {
-                    "id": "0",
-                    "thumbnail": "./cups/0/0.png",
+                    "id": 0,
                     "name_en": "Mario Kart Studium",
                     "name_jp": "マリオカートスタジアム",
                     "abbreviation": "MKS"
                 },
                 {
-                    "id": "1",
-                    "thumbnail": "./cups/0/1.png",
+                    "id": 1,
                     "name_en": "Water Park",
                     "name_jp": "ウォーターパーク",
                     "abbreviation": "WP"
                 },
                 {
-                    "id": "2",
-                    "thumbnail": "./cups/0/2.png",
+                    "id":　2,
                     "name_en": "Sweet Sweet Canyon",
                     "name_jp": "スイーツキャニオン",
                     "abbreviation": "SSC"
                 },
                 {
-                    "id": "3",
-                    "thumbnail": "./cups/0/3.png",
+                    "id": 3,
                     "name_en": "Thwomp Ruins",
                     "name_jp": "ドッスンいせき",
                     "abbreviation": "TR"
@@ -36,33 +31,28 @@
         },
 
         {
-            "id": "1",
-            "thumbnail": "../../assets/games/mk8dx/cups/2/thumbnail.png",
+            "id": 1,
             "tracks": [
                 {
-                    "id": "0",
-                    "thumbnail": "./cups/1/0.png",
+                    "id": 0,
                     "name_en": "Mario Circuit",
                     "name_jp": "マリオサーキット",
                     "abbreviation": "MC"
                 },
                 {
-                    "id": "1",
-                    "thumbnail": "./cups/1/1.png",
+                    "id": 1,
                     "name_en": "Toad Harbor",
                     "name_jp": "キノピオハーバー",
                     "abbreviation": "TH"
                 },
                 {
-                    "id": "2",
-                    "thumbnail": "./cups/1/2.png",
+                    "id": 2,
                     "name_en": "Twisted Mansion",
                     "name_jp": "ねじれマンション",
                     "abbreviation": "TM"
                 },
                 {
-                    "id": "3",
-                    "thumbnail": "./cups/1/3.png",
+                    "id": 3,
                     "name_en": "Shy Guy Falls",
                     "name_jp": "ヘイホーこうざん",
                     "abbreviation": "SGF"
@@ -71,33 +61,28 @@
         },
 
         {
-            "id": "2",
-            "thumbnail": "../../assets/games/mk8dx/cups/4/thumbnail.png",
+            "id": 2,
             "tracks": [
                 {
-                    "id": "0",
-                    "thumbnail": "./cups/2/0.png",
+                    "id": 0,
                     "name_en": "Sunshine Airport",
                     "name_jp": "サンシャインくうこう",
                     "abbreviation": "SA"
                 },
                 {
-                    "id": "1",
-                    "thumbnail": "./cups/2/1.png",
+                    "id": 1,
                     "name_en": "Dolphin Shoals",
                     "name_jp": "ドルフィンみさき",
                     "abbreviation": "DS"
                 },
                 {
-                    "id": "2",
-                    "thumbnail": "./cups/2/2.png",
+                    "id": 2,
                     "name_en": "Electrodrome",
                     "name_jp": "エレクトロドリーム",
                     "abbreviation": "ED"
                 },
                 {
-                    "id": "3",
-                    "thumbnail": "./cups/2/3.png",
+                    "id": 3,
                     "name_en": "Mount Wario",
                     "name_jp": "ワリオスノーマウンテン",
                     "abbreviation": "MW"
@@ -106,33 +91,28 @@
         },
 
         {
-            "id": "3",
-            "thumbnail": "../../assets/games/mk8dx/cups/6/thumbnail.png",
+            "id": 3,
             "tracks": [
                 {
-                    "id": "0",
-                    "thumbnail": "./cups/3/0.png",
+                    "id": 0,
                     "name_en": "Cloudtop Cruise",
                     "name_jp": "スカイガーデン",
                     "abbreviation": "CC"
                 },
                 {
-                    "id": "1",
-                    "thumbnail": "./cups/3/1.png",
+                    "id": 1,
                     "name_en": "Bone-Dry Dunes",
                     "name_jp": "ホネホネさばく",
                     "abbreviation": "BDD"
                 },
                 {
-                    "id": "2",
-                    "thumbnail": "./cups/3/2.png",
+                    "id": 2,
                     "name_en": "Bowser's Castle",
                     "name_jp": "クッパキャッスル",
                     "abbreviation": "BC"
                 },
                 {
-                    "id": "3",
-                    "thumbnail": "./cups/3/3.png",
+                    "id": 3,
                     "name_en": "Rainbow Road",
                     "name_jp": "レインボーロード",
                     "abbreviation": "RR"
@@ -141,68 +121,58 @@
         },
 
         {
-            "id": "4",
-            "thumbnail": "../../assets/games/mk8dx/cups/1/thumbnail.png",
+            "id": 4,
             "tracks": [
                 {
-                    "id": "0",
-                    "thumbnail": "./cups/4/0.png",
+                    "id": 0,
                     "name_en": "Wii Moo Moo Meadows",
                     "name_jp": "Wii モーモーカントリー",
                     "abbreviation": "rMMM"
                 },
                 {
-                    "id": "1",
-                    "thumbnail": "./cups/4/1.png",
+                    "id": 1,
                     "name_en": "GBA Mario Circuit",
                     "name_jp": "GBA マリオサーキット",
                     "abbreviation": "rMC"
                 },
                 {
-                    "id": "2",
-                    "thumbnail": "./cups/4/2.png",
+                    "id": 2,
                     "name_en": "DS Cheep Cheep Beach",
                     "name_jp": "DS プクプクビーチ",
                     "abbreviation": "rCCB"
                 },
                 {
-                    "id": "3",
-                    "thumbnail": "./cups/4/3.png",
+                    "id": 3,
                     "name_en": "N64 Toad's Turnpike",
-                    "name_jp": "N64 キノピオハイウェイ",
+                    "name_jp": "64 キノピオハイウェイ",
                     "abbreviation": "rTT"
                 }
             ]
         },
 
         {
-            "id": "5",
-            "thumbnail": "../../assets/games/mk8dx/cups/3/thumbnail.png",
+            "id": 5,
             "tracks": [
                 {
-                    "id": "0",
-                    "thumbnail": "./cups/5/0.png",
+                    "id": 0,
                     "name_en": "GCN Dry Dry Desert",
-                    "name_jp": "GCN カラカラさばく",
+                    "name_jp": "GC カラカラさばく",
                     "abbreviation": "rDDD"
                 },
                 {
-                    "id": "1",
-                    "thumbnail": "./cups/5/1.png",
+                    "id": 1,
                     "name_en": "SNES Donut Plains 3",
-                    "name_jp": "SNES ドーナツへいや3",
+                    "name_jp": "SFC ドーナツへいや3",
                     "abbreviation": "rDP3"
                 },
                 {
-                    "id": "2",
-                    "thumbnail": "./cups/5/2.png",
+                    "id": 2,
                     "name_en": "N64 Royal Raceway",
-                    "name_jp": "N64 ピーチサーキット",
+                    "name_jp": "64 ピーチサーキット",
                     "abbreviation": "rRRy"
                 },
                 {
-                    "id": "3",
-                    "thumbnail": "./cups/5/3.png",
+                    "id": 3,
                     "name_en": "3DS DK Jungle",
                     "name_jp": "3DS DKジャングル",
                     "abbreviation": "rDKJ"
@@ -213,35 +183,30 @@
        
 
         {
-            "id": "6",
-            "thumbnail": "../../assets/games/mk8dx/cups/5/thumbnail.png",
+            "id": 6,
             "tracks": [
                 {
-                    "id": "0",
-                    "thumbnail": "./cups/6/0.png",
+                    "id": 0,
                     "name_en": "DS Wario Stadium",
                     "name_jp": "DS ワリオスタジアム",
                     "abbreviation": "rWS"
                 },
                 {
-                    "id": "1",
-                    "thumbnail": "./cups/6/1.png",
+                    "id": 1,
                     "name_en": "GCN Sherbet Land",
-                    "name_jp": "GCN シャーベットランド",
+                    "name_jp": "GC シャーベットランド",
                     "abbreviation": "rSL"
                 },
                 {
-                    "id": "2",
-                    "thumbnail": "./cups/6/2.png",
+                    "id": 2,
                     "name_en": "3DS Music Park",
                     "name_jp": "3DS ミュージックパーク",
                     "abbreviation": "rMP"
                 },
                 {
-                    "id": "3",
-                    "thumbnail": "./cups/6/3.png",
+                    "id": 3,
                     "name_en": "N64 Yoshi Valley",
-                    "name_jp": "N64 ヨッシーバレー",
+                    "name_jp": "64 ヨッシーバレー",
                     "abbreviation": "rYV"
                 }
             ]
@@ -249,68 +214,58 @@
 
 
         {
-            "id": "7",
-            "thumbnail": "../../assets/games/mk8dx/cups/7/thumbnail.png",
+            "id": 7,
             "tracks": [
                 {
-                    "id": "0",
-                    "thumbnail": "./cups/7/0.png",
+                    "id": 0,
                     "name_en": "DS Tick-Tock Clock",
                     "name_jp": "DS チクタクロック",
                     "abbreviation": "rTTC"
                 },
                 {
-                    "id": "1",
-                    "thumbnail": "./cups/7/1.png",
+                    "id": 1,
                     "name_en": "3DS Piranha Plant Slide",
                     "name_jp": "3DS パックンスライダー",
                     "abbreviation": "rPPS"
                 },
                 {
-                    "id": "2",
-                    "thumbnail": "./cups/7/2.png",
+                    "id": 2,
                     "name_en": "Wii Grumble Volcano",
                     "name_jp": "Wii グラグラかざん",
                     "abbreviation": "rGV"
                 },
                 {
-                    "id": "3",
-                    "thumbnail": "./cups/7/3.png",
+                    "id": 3,
                     "name_en": "N64 Rainbow Road",
-                    "name_jp": "N64 レインボーロード",
+                    "name_jp": "64 レインボーロード",
                     "abbreviation": "rRRd"
                 }
             ]
         },
 
         {
-            "id": "8",
-            "thumbnail": "../../assets/games/mk8dx/cups/8/thumbnail.png",
+            "id": 8,
             "tracks": [
                 {
-                    "id": "0",
-                    "thumbnail": "./cups/8/0.png",
+                    "id": 0,
                     "name_en": "GCN Yoshi Circuit",
-                    "name_jp": "GCN ヨッシーサーキット",
+                    "name_jp": "GC ヨッシーサーキット",
                     "abbreviation": "dYC"
                 },
                 {
-                    "id": "1",
-                    "thumbnail": "./cups/8/1.png",
+                    "id": 1,
                     "name_en": "Excitebike Arena",
                     "name_jp": "エキサイトバイク",
                     "abbreviation": "dEA"
                 },
                 {
-                    "id": "2",
-                    "thumbnail": "./cups/8/2.png",
+                    "id": 2,
                     "name_en": "Dragon Driftway",
                     "name_jp": "ドラゴンロード",
                     "abbreviation": "dDD"
                 },
                 {
-                    "id": "3",
-                    "thumbnail": "./cups/8/3.png",
+                    "id": 3,
                     "name_en": "Mute City",
                     "name_jp": "ミュートシティ",
                     "abbreviation": "dMC"
@@ -319,33 +274,28 @@
         },
 
         {
-            "id": "9",
-            "thumbnail": "../../assets/games/mk8dx/cups/9/thumbnail.png",
+            "id": 9,
             "tracks": [
                 {
-                    "id": "0",
-                    "thumbnail": "./cups/9/0.png",
+                    "id": 0,
                     "name_en": "Wii Wario's Gold Mine",
                     "name_jp": "Wii ワリオこうざん",
                     "abbreviation": "dWGM"
                 },
                 {
-                    "id": "1",
-                    "thumbnail": "./cups/9/1.png",
+                    "id": 1,
                     "name_en": "SNES Rainbow Road",
-                    "name_jp": "SNES レインボーロード",
+                    "name_jp": "SFC レインボーロード",
                     "abbreviation": "dRR"
                 },
                 {
-                    "id": "2",
-                    "thumbnail": "./cups/9/2.png",
+                    "id": 2,
                     "name_en": "Ice Ice Outpost",
                     "name_jp": "ツルツルツイスター",
                     "abbreviation": "dIIO"
                 },
                 {
-                    "id": "3",
-                    "thumbnail": "./cups/9/3.png",
+                    "id": 3,
                     "name_en": "Hyrule Circuit",
                     "name_jp": "ハイラルサーキット",
                     "abbreviation": "dHC"
@@ -354,33 +304,28 @@
         },
 
         {
-            "id": "10",
-            "thumbnail": "../../assets/games/mk8dx/cups/10/thumbnail.png",
+            "id": 10,
             "tracks": [
                 {
-                    "id": "0",
-                    "thumbnail": "./cups/10/0.png",
+                    "id": 0,
                     "name_en": "GCN Baby Park",
-                    "name_jp": "GCN ベビーパーク",
+                    "name_jp": "GC ベビーパーク",
                     "abbreviation": "dBP"
                 },
                 {
-                    "id": "1",
-                    "thumbnail": "./cups/10/1.png",
+                    "id": 1,
                     "name_en": "GBA Cheese Land",
                     "name_jp": "GBA チーズランド",
                     "abbreviation": "dCL"
                 },
                 {
-                    "id": "2",
-                    "thumbnail": "./cups/10/2.png",
+                    "id": 2,
                     "name_en": "Wild Woods",
                     "name_jp": "ネイチャーロード",
                     "abbreviation": "dWW"
                 },
                 {
-                    "id": "3",
-                    "thumbnail": "./cups/10/3.png",
+                    "id": 3,
                     "name_en": "Animal Crossing",
                     "name_jp": "どうぶつの森",
                     "abbreviation": "dAC"
@@ -389,33 +334,28 @@
         },
 
         {
-            "id": "11",
-            "thumbnail": "../../assets/games/mk8dx/cups/11/thumbnail.png",
+            "id": 11,
             "tracks": [
                 {
-                    "id": "0",
-                    "thumbnail": "./cups/11/0.png",
+                    "id": 0,
                     "name_en": "3DS Neo Bowser City",
                     "name_jp": "3DS ネオクッパシティ",
                     "abbreviation": "dNBC"
                 },
                 {
-                    "id": "1",
-                    "thumbnail": "./cups/11/1.png",
+                    "id": 1,
                     "name_en": "GBA Ribbon Road",
                     "name_jp": "GBA リボンロード",
                     "abbreviation": "dRiR"
                 },
                 {
-                    "id": "2",
-                    "thumbnail": "./cups/11/2.png",
+                    "id": 2,
                     "name_en": "Super Bell Subway",
                     "name_jp": "リンリンメトロ",
                     "abbreviation": "dSBS"
                 },
                 {
-                    "id": "3",
-                    "thumbnail": "./cups/11/3.png",
+                    "id": 3,
                     "name_en": "Big Blue",
                     "name_jp": "ビッグブルー",
                     "abbreviation": "dBB"

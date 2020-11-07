@@ -1,0 +1,236 @@
+{
+    "cups": [
+        {
+            "id": 0,
+            "tracks": [
+                {
+                    "id": 0,
+                    "name_en": "Toad Circuit",
+                    "name_jp": "キノピオサーキット",
+                    "abbreviation": ""
+                },
+                {
+                    "id": 1,
+                    "name_en": "Daisy Hills",
+                    "name_jp": "デイジーヒルズ",
+                    "abbreviation": ""
+                },
+                {
+                    "id":　2,
+                    "name_en": "Cheep Cheep Lagoon",
+                    "name_jp": "プクプクラグーン",
+                    "abbreviation": ""
+                },
+                {
+                    "id": 3,
+                    "name_en": "Shy Guy Bazaar",
+                    "name_jp": "ヘイホーカーニバル",
+                    "abbreviation": ""
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "tracks": [
+                {
+                    "id": 0,
+                    "name_en": "Wuhu Loop",
+                    "name_jp": "ウーフーアイランド1",
+                    "abbreviation": ""
+                },
+                {
+                    "id": 1,
+                    "name_en": "Mario Circuit",
+                    "name_jp": "マリオサーキット",
+                    "abbreviation": ""
+                },
+                {
+                    "id":　2,
+                    "name_en": "Music Park",
+                    "name_jp": "ミュージックパーク",
+                    "abbreviation": ""
+                },
+                {
+                    "id": 3,
+                    "name_en": "Rock Rock Mountain",
+                    "name_jp": "ロックロックマウンテン",
+                    "abbreviation": ""
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "tracks": [
+                {
+                    "id": 0,
+                    "name_en": "Piranha Plant Slide",
+                    "name_jp": "パックンスライダー",
+                    "abbreviation": ""
+                },
+                {
+                    "id": 1,
+                    "name_en": "Wario Shipyard",
+                    "name_jp": "ワリオシップ",
+                    "abbreviation": ""
+                },
+                {
+                    "id":　2,
+                    "name_en": "Neo Bowser City",
+                    "name_jp": "ネオクッパシティ",
+                    "abbreviation": ""
+                },
+                {
+                    "id": 3,
+                    "name_en": "Maka Wuhu",
+                    "name_jp": "ウーフーアイランド2",
+                    "abbreviation": ""
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "tracks": [
+                {
+                    "id": 0,
+                    "name_en": "DK Jungle",
+                    "name_jp": "DKジャングル",
+                    "abbreviation": ""
+                },
+                {
+                    "id": 1,
+                    "name_en": "Rosalina's Ice World",
+                    "name_jp": "ロゼッタプラネット",
+                    "abbreviation": ""
+                },
+                {
+                    "id":　2,
+                    "name_en": "Bowser's Castle",
+                    "name_jp": "クッパキャッスル",
+                    "abbreviation": ""
+                },
+                {
+                    "id": 3,
+                    "name_en": "Rainbow Road",
+                    "name_jp": "レインボーロード",
+                    "abbreviation": ""
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "tracks": [
+                {
+                    "id": 0,
+                    "name_en": "N64 Luigi Raceway",
+                    "name_jp": "64 ルイージサーキット",
+                    "abbreviation": ""
+                },
+                {
+                    "id": 1,
+                    "name_en": "GBA Bowser Castle 1",
+                    "name_jp": "GBA クッパキャッスル1",
+                    "abbreviation": ""
+                },
+                {
+                    "id":　2,
+                    "name_en": "Wii Mushroom Gorge",
+                    "name_jp": "Wii キノコキャニオン",
+                    "abbreviation": ""
+                },
+                {
+                    "id": 3,
+                    "name_en": "DS Luigi's Mansion",
+                    "name_jp": "DS ルイージマンション",
+                    "abbreviation": ""
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "tracks": [
+                {
+                    "id": 0,
+                    "name_en": "N64 Koopa Troopa Beach",
+                    "name_jp": "64 ノコノコビーチ",
+                    "abbreviation": ""
+                },
+                {
+                    "id": 1,
+                    "name_en": "SNES Mario Circuit 2",
+                    "name_jp": "SFC マリオサーキット2",
+                    "abbreviation": ""
+                },
+                {
+                    "id":　2,
+                    "name_en": "Wii Coconut Mall",
+                    "name_jp": "Wii ココナッツモール",
+                    "abbreviation": ""
+                },
+                {
+                    "id": 3,
+                    "name_en": "DS Waluigi Pinball",
+                    "name_jp": "DS ワルイージピンボール",
+                    "abbreviation": ""
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "tracks": [
+                {
+                    "id": 0,
+                    "name_en": "N64 Kalimari Desert",
+                    "name_jp": "64 カラカラさばく",
+                    "abbreviation": ""
+                },
+                {
+                    "id": 1,
+                    "name_en": "DS DK Pass",
+                    "name_jp": "DS DKスノーマウンテン",
+                    "abbreviation": ""
+                },
+                {
+                    "id":　2,
+                    "name_en": "GCN Daisy Cruiser",
+                    "name_jp": "GC デイジークルーザー",
+                    "abbreviation": ""
+                },
+                {
+                    "id": 3,
+                    "name_en": "Wii Maple Treeway",
+                    "name_jp": "Wii メイプルツリーハウス",
+                    "abbreviation": ""
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "tracks": [
+                {
+                    "id": 0,
+                    "name_en": "Wii Koopa Cape",
+                    "name_jp": "Wii ノコノコみさき",
+                    "abbreviation": ""
+                },
+                {
+                    "id": 1,
+                    "name_en": "GCN Dino Dino Jungle",
+                    "name_jp": "GC ディノディノジャングル",
+                    "abbreviation": ""
+                },
+                {
+                    "id":　2,
+                    "name_en": "DS Airship Fortress",
+                    "name_jp": "DS キラーシップ",
+                    "abbreviation": ""
+                },
+                {
+                    "id": 3,
+                    "name_en": "SNES Rainbow Road",
+                    "name_jp": "SFC レインボーロード",
+                    "abbreviation": ""
+                }
+            ]
+        }
+    ]
+}
