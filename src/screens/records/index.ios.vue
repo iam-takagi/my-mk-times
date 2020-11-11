@@ -1,38 +1,49 @@
 <template>
-
   <view class="container">
-
     <nb-content>
-     
-
-      <view v-for="(cup, i) in info.cups" :key="i" :style="{ marginTop: 20 }">
-        <view
-          v-for="(track, i) in cup.tracks"
-          :key="i"
-          :style="{ marginTop: 10 }"
-        >
+      <view v-for="(cup, i) in game.cups" :key="i" :style="{ marginTop: 20 }">
+        <view v-for="(track, i) in cup.tracks" :key="i" :style="{ margin: 7 }">
           <nb-button
             :onPress="
               () =>
                 goToTrack(
                   navigation.getParam('game'),
-                  navigation.getParam('game_display_name'),
+                  navigation.getParam('preset_name'),
                   track
                 )
             "
             block
           >
-            <nb-text :style="{ fontSize: 10 }">
+            <nb-text :style="{ fontSize: 12 }">
               {{ track.name_en }} - {{ track.name_jp }} - {{ track.abbreviation }}
             </nb-text>
           </nb-button>
         </view>
       </view>
+
+      <nb-button
+        :style="{ marginTop: 20, margin: 7 }"
+        :onPress="() => goToRename(navigation.getParam('game'), navigation.getParam('preset_name')) "
+        success
+        block
+      >
+        <nb-text :style="{ fontSize: 16 }"> Rename Preset </nb-text>
+      </nb-button>
+
+      <nb-button
+        :style="{ margin: 7 }"
+        :onPress="() => deletePreset()"
+        danger
+        block
+      >
+        <nb-text :style="{ fontSize: 16 }"> Delete Preset </nb-text>
+      </nb-button>
     </nb-content>
   </view>
 </template>
 
 <script>
+import { AsyncStorage, Alert } from "react-native";
 export default {
   props: {
     navigation: {
@@ -41,36 +52,78 @@ export default {
   },
   data() {
     return {
-      info: null,
-    };
+      game: [],
+    }
   },
-  created() {
-    if (this.navigation.getParam("game").includes("mk8")) {
-      this.info = require("../../assets/games/mk8/info.json");
-    } else if(this.navigation.getParam("game").includes("mkw")) {
-      this.info = require("../../assets/games/mkw/info.json");
-    } else if(this.navigation.getParam("game").includes("mk7")) {
-      this.info = require("../../assets/games/mk7/info.json");
-    } else if(this.navigation.getParam("game").includes("mkds")) {
-      this.info = require("../../assets/games/mkds/info.json");
+  mounted() {
+    const data = require("mk-tracks");
+
+    if (this.navigation.getParam("game").includes("MK8")) {
+      this.game = data.find((v) => v.title_abbreviation === "MK8");
+    } else if (this.navigation.getParam("game").includes("MKW")) {
+      this.game = data.find((v) => v.title_abbreviation === "MKW");
+    } else if (this.navigation.getParam("game").includes("MKW")) {
+      this.game = data.find((v) => v.title_abbreviation === "MK7");
+    } else if (this.navigation.getParam("game").includes("MKDS")) {
+      this.game = data.find((v) => v.title_abbreviation === "MKDS");
     }
   },
   methods: {
-    goToTrack(game, game_display_name, track) {
+    goToTrack(game, preset_name, track) {
       this.navigation.navigate("Record", {
         game: game,
-        game_display_name: game_display_name,
+        preset_name: preset_name,
         track: track,
       });
     },
+    goToRename(game, preset_name) {
+      this.navigation.navigate("RenamePreset", {
+        game: game,
+        preset_name: preset_name,
+      });
+    },
+    async deletePreset() {
+      Alert.alert(
+        "Really?",
+        "プリセットを削除しますか？ (記録が削除されます)",
+        [
+          {
+            text: "Cancel",
+            style: "cancel",
+          },
+          {
+            text: "OK",
+            onPress: async () => {
+              await AsyncStorage.removeItem(
+                this.navigation.getParam("game") +
+                  "-" +
+                  this.navigation.getParam("preset_name")
+              );
+              Alert.alert(
+                "Preset Delete!",
+                "プリセットを削除しました",
+                [
+                  {
+                    text: "OK",
+                    onPress: () => {
+                      this.navigation.navigate("Home", {});
+                    },
+                  },
+                ],
+                { cancelable: false }
+              );
+            },
+          },
+        ],
+        { cancelable: false }
+      );
+    }
   },
 };
 </script>
 
 <style>
 .container {
-  align-items: center;
-  justify-content: center;
   flex: 1;
 }
 .heading {

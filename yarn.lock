@@ -7405,6 +7405,11 @@ mixin-deep@^1.2.0:
     for-in "^1.0.2"
     is-extendable "^1.0.1"
 
+mk-tracks@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/mk-tracks/-/mk-tracks-0.0.4.tgz#0186f8dc0d5464a9b192cc51472e9469485b30b7"
+  integrity sha512-7SDGOzpxTomBdXiD9cWI2v46yQUzcJ0Z1zRpfgvmhrLFPxxiBXPE1N/mJdb/W5t8LS81nV+Q18FkyHtLDj55qA==
+
 mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"

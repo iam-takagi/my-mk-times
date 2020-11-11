@@ -1,8 +1,8 @@
 <template>
   <view class="container">
-    <nb-content>
+    <nb-content :style="{margin: 10}">
    
-      <text :style="{marginTop: 15}"> {{ navigation.getParam("track").name_en }} - {{ navigation.getParam("track").name_jp }} - {{ navigation.getParam("track").abbreviation }}</text>
+      <text :style="{}"> {{ navigation.getParam("track").name_en }} - {{ navigation.getParam("track").name_jp }} - {{ navigation.getParam("track").abbreviation }}</text>
 
       <!--text> {{ records }}</text-->
 
@@ -61,14 +61,13 @@ export default {
     ).abbreviation;
 
     try {
-      const recordsStr = await AsyncStorage.getItem("records");
+      const recordsStr = await AsyncStorage.getItem(this.navigation.getParam("game") + "-" + this.navigation.getParam("preset_name"));
       if (recordsStr) {
         const parsed = JSON.parse(recordsStr);
         this.records = parsed;
 
         const f = this.records.find(
           (v) =>
-            this.navigation.getParam("game") === v.game &&
             this.navigation.getParam("track").abbreviation ===
               v.track_abbreviation
         );
@@ -85,7 +84,6 @@ export default {
     async save() {
       const i = this.records.findIndex(
         (v) =>
-          this.navigation.getParam("game") === v.game &&
           this.navigation.getParam("track").abbreviation ===
             v.track_abbreviation
       );
@@ -95,13 +93,13 @@ export default {
       else this.records.push(this.record);
 
       try {
-        await AsyncStorage.setItem("records", JSON.stringify(this.records));
+        await AsyncStorage.setItem(this.navigation.getParam("game") + "-" + this.navigation.getParam("preset_name"), JSON.stringify(this.records));
 
         Alert.alert(
           "Saved / 保存しました",
           "",
           [
-            { text: "OK", onPress: () => console.log("OK Pressed") },
+            { text: "OK" },
           ],
           { cancelable: false }
         );
@@ -115,8 +113,6 @@ export default {
 
 <style>
 .container {
-  align-items: center;
-  justify-content: center;
   flex: 1;
 }
 .heading {
